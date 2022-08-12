@@ -24,6 +24,6 @@ class Car extends Vehicle{ //puxa os métodos da classe Vehicle
   } 
 }
 
-const car = new Car(4, 'red');
+const car = new Car(4,'red');
 car.startDrivingProcess();
 console.log(car.color);

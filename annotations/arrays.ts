@@ -15,7 +15,7 @@ const car = carMakers[0];
 const myCar = carMakers.pop();
 
 //previne valores incompativeis
-carMakers.push(100);
+carMakers.push('100'); //aceita apenas strings, nao aceita numeros
 
 //ajuda com map statements
 carMakers.map((car: string): string => {
@@ -26,4 +26,4 @@ carMakers.map((car: string): string => {
 const importDates: (Date | string)[] = [new Date(), '2022-10-10'];
 importDates.push('2022-15-21');
 importDates.push(new Date());
-importDates.push(100); //não aceita!!!
+importDates.push('100'); //não aceita numeros, apenas strings!
